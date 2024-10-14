@@ -8,6 +8,7 @@ const observer = new PerformanceObserver((list) => {
   });
 });
 
+
 observer.observe({ type: "resource", buffered: true });
 
 (function ($) {
