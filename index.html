@@ -2710,44 +2710,6 @@
 
 
     </div>
-<script>
-    
-  const images = document.querySelectorAll('img'); // Sayfadaki tüm img etiketlerini seç
-  let loadedCount = 0;
-  let totalCount = images.length;
-
-  // Her bir img öğesi için load ve error olaylarını dinle
-  images.forEach((img) => {
-    console.log(img)
-      if (img.complete && img.naturalHeight !== 0) {
-          // Eğer resim zaten yüklendiyse (önbellekten olabilir)
-          loadedCount++;
-      } else {
-          // Yüklenme durumunu dinle
-         
-          img.onload = function () {
-            loadedCount++;
-            console.log(`Bir resim yüklendi. Şu ana kadar yüklü: ${loadedCount}/${totalCount}`);
-    }
-    img.onprogress = function (e) {
-            
-            console.log(e);
-    }
-
-          // Hata durumunu dinle
-          img.addEventListener('error', () => {
-              console.log(`Bir resim yüklenemedi. Şu ana kadar yüklü: ${loadedCount}/${totalCount}`);
-          });
-      }
-  });
-
-  // Yükleme işlemi tamamlandığında konsola bilgi yaz
-  if (loadedCount === totalCount) {
-      console.log(`Tüm resimler yüklendi: ${loadedCount}/${totalCount}`);
-  } else {
-      console.log(`Toplam resim: ${totalCount}. Şu ana kadar yüklü: ${loadedCount}`);
-  }
-</script>
     <script>
 
         async function initMap() {
