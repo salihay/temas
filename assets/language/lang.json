@@ -1,0 +1,24 @@
+{
+    "hakkimizda": {
+      "content": {
+        "tr": "<p>Ana odak noktamız Savunma Sanayii sektörüne yönelik hizmet sunmak olan firmamızda,zırhlıaraçlar, tanklar, denizaltılar ve askeri hava araçlarının alt sistemleri,radarlar,gözetlemekuleleri gibi parçalarına yönelik güç dağıtım kutuları, kontrol kutuları ve özel taleplere uygun mekanik alt parça imalatı gerçekleştiriyoruz.</p><p>Ayrıca, ilgili sistemlerde kullanılmak üzere askeri standartlara uygun konnektörler,adaptörler ve konnektör aksesuarları gibi ürünlerde geniş bir ürün yelpazesi sunarak Türk Savunma Sanayiine hızlı teslimat süreleriyle hizmet veriyoruz.</p><p>Bununla beraber, NATO'nun resmi tedarikçilerinden biri olarak, NATO ülkelerine parça tedariki sağlamaktayız.</p>",
+        "en": "<p>Our main focus is to provide services for the Defense Industry sector. in our company, armored subsystems of vehicles, tanks, submarines and military aircraft, radars, surveillance power distribution boxes, control boxes and parts for parts such as towers special suitable for demands We manufacture mechanical sub-parts.</p><p>In addition, it complies with military standards for use in relevant systems. connectors, adapters By offering a wide range of products such as connector accessories and Turkish Defense We serve the industry with fast delivery times.</p><p>However, as one of NATO's official suppliers, NATO piece to their country We provide supply.</p>",
+        "node": ""
+      }
+    },
+   
+    "misyon": {
+      "content": {
+        "tr": "Müşteri ve çalışan memnuniyetini gözeterek Türk savunma sanayine teknoloji ve kalite odaklı hizmet sunmanın referansı olmaktır.",
+        "en": "To be the reference in providing technology and quality-oriented service to the Turkish defense industry, taking into account customer and employee satisfaction.",
+        "node": ""
+      }
+    },
+    "vizyon": {
+      "content": {
+        "tr": "Türk silahlı kuvvetlerini dışa olan bağımlılıktan kurtarmaktır.",
+        "en": "It is to save the Turkish armed forces from external dependence.",
+        "node": ""
+      }
+    }
+  }

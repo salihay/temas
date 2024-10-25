@@ -45,7 +45,6 @@ header {
 	z-index: 2;
 	width: 100%;
 	background-color: white;
-	padding: 10px 0;
 }
 
 header.scroll {
@@ -147,11 +146,12 @@ a.logo {
 	color: white;
 }
 
-.h_nav>li>a {
+.h_nav > li > a {
 	display: block;
 	font-size: 15px;
 	font-weight: 500;
-	padding: 22px 16px;
+	padding: 0 16px;
+	line-height: 66px;
 }
 
 .sub-wrapper {
@@ -425,7 +425,7 @@ main section {
 	/* height: 500px; */
 	/* max-width: 1300px; */
 	/* padding: 70px 0; */
-	padding-top: 62px;
+	padding-top: 66px;
 }
 
 
@@ -437,11 +437,11 @@ main section {
 	transition-property: transform;
 	/* display: block; */
 
-	padding: 100px 0;
+	
 	display: flex;
 	justify-content: unset;
 	align-items: end;
-	padding-bottom: 120px;
+	
 }
 
 .sw_thumbContainer_wrapper {
@@ -493,7 +493,7 @@ main section {
 
 
 .thumbSwiper .swiper-wrapper .swiper-slide {
-	min-width: 25%;
+	min-width: 33.33%;
 	/* background: white; */
 	padding: 20px;
 	transform: skewX(-20deg);
@@ -559,7 +559,7 @@ main section {
 	/* background-color: #ffffffba; */
 	font-weight: bolder;
 	color: #2f2f2f;
-	backdrop-filter: blur(20px);
+
 	/* top: 0px; */
 	transform: translateY(-12px);
 }
@@ -952,13 +952,13 @@ main section {
 	/* margin-right: 0px; */
 	margin-left: -140px;
 	transform: skew(-20deg) translateX(50px);
-	background: white;
+	
 	/* border: 1px solid; */
 	/* transform: translate; */
 }
 
 .swiper-slide .text .text_overlay {
-	background: white;
+
 	padding: 32px 220px 32px 0px;
 }
 
@@ -979,18 +979,20 @@ main section {
 	/* box-shadow: 0 0 70px 0 black; */
 	z-index: -1;
 	/* left: 200px; */
-	background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.53) 100%);
-	filter: blur(50px);
+	
+	
 }
 
-.swiper-slide .text span:nth-child(1) {
+.swiper-slide .text .sl_head  {
 	display: block;
 	color: #f09100;
 	font-weight: 600;
 	font-size: 52px;
 }
-
-.swiper-slide .text span:nth-child(2) {
+.swiper-slide .text .sl_head div {
+	display: inline;
+}
+.swiper-slide .text .sl_text  {
 	display: block;
 	color: #2f2f2f;
 	font-weight: 400;
@@ -998,30 +1000,35 @@ main section {
 	transform: skew(20deg);
 	margin-left: 20px;
 }
-
+.swiper-slide .text .sl_text div {
+	display: inline;
+	overflow: hidden;
+}
+.swiper-slide .text .sl_head div span {
+	transition: all ease-in-out .3s;
+	
+}
+.swiper-slide .text .sl_text div span {
+	transition: all ease-in-out .3s;
+	
+}
+.swiper-slide .text .sl_text div.hide span {
+	opacity: 0;
+	transition: all ease-in-out 0s;
+}
+.swiper-slide .text .sl_head div.hide span {
+	opacity: 0;
+	transition: all ease-in-out 0s;
+}
 .slider-cell {
 	display: flex;
 	flex-direction: row;
 	width: 100%;
 	overflow: hidden;
+	height: 630px;
 }
 
-.slider-cell::after {
-	content: "";
-	display: flex;
-	flex-direction: row;
-	/* width: 100%; */
-	/* overflow: hidden; */
-	transform: skew(-20deg);
-	background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(236, 146, 5) 100%);
-	position: absolute;
-	height: 100%;
-	width: 50%;
-	/* background-color: aqua; */
-	left: -200px;
-	z-index: -1;
-	/* left: 0; */
-}
+
 
 .slider-cell .s-img {
 	width: 50%;
@@ -1031,7 +1038,81 @@ main section {
 	/* clip-path: polygon(calc(0% + 0px) 0%, 100% 0%, calc(100% - 100px) 100%, 0% 100%); */
 	/* height: 480px; */
 }
+.slider-cell .s-vec {
+	width: 50%;
+	height: 100%;
+	transform: skew(-20deg);
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(236, 146, 5) 100%);
+	left: -200px;
+	display: flex;
+	position: relative;
+	justify-content: flex-end;
+	overflow: hidden;
+	align-items: center;
+}
+.slider-cell .s-vec svg {
+	/* width: 60%; */
+	height: 480px;
+	
+	/* background: #ff030347; */
+	right: -240px;
+	/* display: block; */
+	position: relative;
+	/* top: 50px; */
+}
+.slider-cell .s-vec svg#plane {
+	
+	transform: skew(20deg) rotateZ(20deg);
+	
+}
+.slider-cell .s-vec svg#tank {
+	
+	transform: skew(20deg) rotateZ(0deg);
+	
+}
+.slider-cell .s-vec svg#warship {
+	
+	transform: skew(20deg) rotateZ(0deg);
+	
+}
+.slider-cell .s-vec svg#plane * {
+	stroke-width: 0.5px;
+	stroke: white;
+	stroke-dasharray: 1420;
+	stroke-dashoffset: -1240;
+	
+	transition: all ease-in-out 2s;
+}
+.slider-cell .s-vec svg#tank * {
+	stroke-width: 0.2px;
+	stroke: white;
+	stroke-dasharray: 400;
+	stroke-dashoffset: -400;
+	fill: transparent;
+	
+	transition: all ease-in-out 2s;
+}
+.slider-cell .s-vec svg#warship * {
+	stroke-width: 0.2px;
+	stroke: white;
+	stroke-dasharray: 940;
+	stroke-dashoffset: -940;
+	fill: transparent;
+	
+	transition: all ease-in-out 2s;
+}
+.swiper-slide-active .slider-cell .s-vec svg#plane * {
 
+	stroke-dashoffset: 0;
+}
+.swiper-slide-active .slider-cell .s-vec svg#tank * {
+
+	stroke-dashoffset: 0;
+}
+.swiper-slide-active .slider-cell .s-vec svg#warship * {
+
+	stroke-dashoffset: 0;
+}
 .slider-cell .s-text {
 	width: 50%;
 	/* height: 0; */
@@ -1608,7 +1689,7 @@ footer .contact .cont-cell .c_text span {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(to top, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+	background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.61) 100%);
 }
 
 .slider-svg svg {
@@ -1636,6 +1717,7 @@ footer .contact .cont-cell .c_text span {
 .map-container {
 	background: #e3e3e3;
 	padding: 0;
+	overflow: hidden;
 }
 
 .map-info {
@@ -1742,7 +1824,45 @@ footer .contact .cont-cell .c_text span {
 	color: #6e6e6e;
 
 }
+#langselect + .select2-container {
+	width: auto !important;
+	 outline: 1px solid; 
+	padding: 0 16px;
+}
+.select2-container .select2-selection--single {
+	display: flex !important;
+	height: 66px !important;
+	align-items: center;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	
+}
+.select2-container .select2-selection--single .select2-selection__rendered .select-icon img {
+	height: 18px;
+}
+.select2-selection__arrow{
+	display: none;
+}
+.select2-container .select2-selection--single .select2-selection__rendered .select-icon ._img{
+	margin-right: 5px;
+}
 
+.select2-container .select2-selection--single .select2-selection__rendered .select-icon ._text{
+	
+	font-size: 15px;
+	font-weight: 500;
+	
+}
+.select2-results .select-icon ._img img{
+	height: 18px;
+}
+.select2-results .select-icon ._text{
+	
+	font-size: 15px;
+	font-weight: 500;
+}
 @media (max-width:991px) {}
 
 @media (max-width: 768px) {}
