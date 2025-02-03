@@ -1,24 +1,350 @@
 {
-    "hakkimizda": {
+  "link_1": {
+    "content": {
+      "tr": "Anasayfa",
+      "en": "Homepage",
+      "node": ""
+    }
+  },
+  "link_2": {
+    "content": {
+      "tr": "Kurumsal",
+      "en": "Institutional",
+      "node": ""
+    }
+  },
+  "link_3": {
+    "content": {
+      "tr": "Ürünlerimiz",
+      "en": "Our products",
+      "node": ""
+    }
+  },
+  "link_4": {
+    "content": {
+      "tr": "İletişim",
+      "en": "Contact",
+      "node": ""
+    }
+  },
+    "slider_head_1": {
       "content": {
-        "tr": "<p>Ana odak noktamız Savunma Sanayii sektörüne yönelik hizmet sunmak olan firmamızda,zırhlıaraçlar, tanklar, denizaltılar ve askeri hava araçlarının alt sistemleri,radarlar,gözetlemekuleleri gibi parçalarına yönelik güç dağıtım kutuları, kontrol kutuları ve özel taleplere uygun mekanik alt parça imalatı gerçekleştiriyoruz.</p><p>Ayrıca, ilgili sistemlerde kullanılmak üzere askeri standartlara uygun konnektörler,adaptörler ve konnektör aksesuarları gibi ürünlerde geniş bir ürün yelpazesi sunarak Türk Savunma Sanayiine hızlı teslimat süreleriyle hizmet veriyoruz.</p><p>Bununla beraber, NATO'nun resmi tedarikçilerinden biri olarak, NATO ülkelerine parça tedariki sağlamaktayız.</p>",
-        "en": "<p>Our main focus is to provide services for the Defense Industry sector. in our company, armored subsystems of vehicles, tanks, submarines and military aircraft, radars, surveillance power distribution boxes, control boxes and parts for parts such as towers special suitable for demands We manufacture mechanical sub-parts.</p><p>In addition, it complies with military standards for use in relevant systems. connectors, adapters By offering a wide range of products such as connector accessories and Turkish Defense We serve the industry with fast delivery times.</p><p>However, as one of NATO's official suppliers, NATO piece to their country We provide supply.</p>",
+        "tr": "KARA GRUBU",
+        "en": "LAND SYSTEMS",
         "node": ""
       }
     },
    
-    "misyon": {
+    "slider_sub_1": {
       "content": {
-        "tr": "Müşteri ve çalışan memnuniyetini gözeterek Türk savunma sanayine teknoloji ve kalite odaklı hizmet sunmanın referansı olmaktır.",
-        "en": "To be the reference in providing technology and quality-oriented service to the Turkish defense industry, taking into account customer and employee satisfaction.",
+        "tr": "Kara Taşıtları için Adaptör ve Konnektörler",
+        "en": "Adapters and Connectors for Land Vehicles",
         "node": ""
       }
     },
-    "vizyon": {
+    "slider_text_1": {
+      "content": {
+        "tr": "Kara taşıtları, zorlu ve değişken çevresel koşullarda çalışmak üzere tasarlanmış adaptör ve konnektörlere ihtiyaç duyar. Askeri araçlar, örneğin zırhlı araçlar ve lojistik taşıma sistemleri, yüksek seviyede titreşim, darbe ve toz gibi dış etkenlerle karşı karşıya kalır. Bu nedenle, kara taşıtları için kullanılan konnektörler, dayanıklılığı artıran özel malzemelerden üretilir ve genellikle IP67 veya daha yüksek koruma sınıflarına sahiptir. Bağlantı güvenliği kritik olduğu için bu komponentler, titreşime karşı dirençli ve sıkı bir kilitleme mekanizmasına sahip olacak şekilde tasarlanır.",
+        "en": "Land vehicles require adapters and connectors designed to operate in challenging and variable environmental conditions. Military vehicles, such as armored vehicles and logistical transport systems, are exposed to external factors like high levels of vibration, shock, and dust. Therefore, connectors used for land vehicles are manufactured from special materials that enhance durability and typically have protection ratings of IP67 or higher. Since connection security is critical, these components are designed to be resistant to vibration and equipped with a robust locking mechanism.",
+        "node": ""
+      }
+    },
+    "slider_head_2": {
+      "content": {
+        "tr": "HAVA GRUBU",
+        "en": "AIR SYSTEMS",
+        "node": ""
+      }
+    },
+   
+    "slider_sub_2": {
+      "content": {
+        "tr": "Hava Taşıtları için Adaptör ve Konnektörler",
+        "en": "Adapters and Connectors for Aircraft",
+        "node": ""
+      }
+    },
+    "slider_text_2": {
+      "content": {
+        "tr": "Hava taşıtlarında kullanılan adaptör ve konnektörler, en yüksek seviyede güvenlik ve performans gerekliliklerine uygun olarak üretilir. Uçaklar ve diğer hava araçları, düşük basınç, geniş sıcaklık aralıkları ve yüksek irtifadaki elektromanyetik girişimler gibi benzersiz koşullara maruz kalır. Bu ortamlar için tasarlanan konnektörler, ağırlığı azaltan hafif malzemelerden yapılır ancak yapısal bütünlüğü koruyacak şekilde dayanıklıdır. Güvenlik standartları gereği, bağlantı elemanları genellikle çift kilitleme mekanizması ve hızlı ayrılma özellikleri ile donatılır. Kritik sistemler arasında güvenilir veri ve güç iletimi sağlamak için, hava taşıtlarında kullanılan adaptör ve konnektörler son derece hassas mühendislik ile üretilir.",
+        "en": "Adapters and connectors used in aircraft are manufactured to meet the highest safety and performance standards. Aircraft and other aerial vehicles are exposed to unique conditions such as low pressure, wide temperature ranges, and electromagnetic interference at high altitudes. Connectors designed for these environments are made from lightweight materials to reduce weight while maintaining structural integrity. In compliance with safety standards, connection elements are typically equipped with dual locking mechanisms and quick-release features. To ensure reliable data and power transmission between critical systems, adapters and connectors used in aviation are produced with highly precise engineering.",
+        "node": ""
+      }
+    },
+    "slider_head_3": {
+      "content": {
+        "tr": "DENİZ GRUBU",
+        "en": "MARINE SYSTEMS",
+        "node": ""
+      }
+    },
+   
+    "slider_sub_3": {
+      "content": {
+        "tr": "Deniz Taşıtları için Adaptör ve Konnektörler",
+        "en": "Adapters and Connectors for Marine Vehicles",
+        "node": ""
+      }
+    },
+    "slider_text_3": {
+      "content": {
+        "tr": "Deniz taşıtları, suya, tuzlu ortama ve sürekli neme maruz kalan sistemlerle çalışır. Bu taşıtlar için geliştirilen adaptör ve konnektörler, korozyon direnci en yüksek seviyede olan paslanmaz çelik veya nikel kaplama gibi malzemelerden üretilir. Aynı zamanda, bu bağlantı elemanları su geçirmez contalar ve su sızıntısını önleyen sızdırmazlık mekanizmaları ile donatılmıştır. Elektromanyetik dalgalara karşı koruma da önemli olduğundan, konnektörler genellikle elektromanyetik girişime karşı koruyucu bir yapı içerir. Deniz taşıtlarında güvenilir veri ve güç aktarımı sağlamak, bu ekipmanın öncelikli tasarım kriterleri arasında yer alır.",
+        "en": "Marine vehicles operate in systems constantly exposed to water, salt, and high humidity. Adapters and connectors developed for these vehicles are made from materials like stainless steel or nickel plating, which offer the highest levels of corrosion resistance. Additionally, these connectors are equipped with waterproof seals and sealing mechanisms to prevent water leakage. Protection against electromagnetic waves is also crucial, so the connectors typically feature shielding to guard against electromagnetic interference. Ensuring reliable data and power transmission is a primary design criterion for equipment used in marine vehicles.",
+        "node": ""
+      }
+    },
+    "slider_link_1": {
+      "content": {
+        "tr": "KARA SAVUNMA",
+        "en": "LAND DEFENSE",
+        "node": ""
+      }
+    },
+    "slider_link_2": {
+      "content": {
+        "tr": "HAVA SAVUNMA",
+        "en": "AIR DEFENSE",
+        "node": ""
+      }
+    },
+    "slider_link_3": {
+      "content": {
+        "tr": "DENİZ SAVUNMA",
+        "en": "MARINE DEFENSE",
+        "node": ""
+      }
+    },
+    "c_title_1": {
+      "content": {
+        "tr": "ÜRÜNLERİMİZ",
+        "en": "OUR PRODUCTS",
+        "node": ""
+      }
+    },
+    "c_title_2": {
+      "content": {
+        "tr": "KURUMSAL",
+        "en": "INSTITUTIONAL",
+        "node": ""
+      }
+    },
+    "c_title_3": {
+      "content": {
+        "tr": "HİZMETLER",
+        "en": "SERVICES",
+        "node": ""
+      }
+    },
+    "c_title_4": {
+      "content": {
+        "tr": "SERTİFİKALARIMIZ",
+        "en": "OUR CERTIFICATES",
+        "node": ""
+      }
+    },
+    "c_title_5": {
+      "content": {
+        "tr": "REFERANSLARIMIZ",
+        "en": "OUR REFERENCES",
+        "node": ""
+      }
+    },
+    "prd_sub_1": {
+      "content": {
+        "tr": "KONNEKTÖR",
+        "en": "CONNECTOR",
+        "node": ""
+      }
+    },
+    "prd_text_1": {
+      "content": {
+        "tr": "<p>Askeri konnektörler, çeşitli elektronik ve iletişim sistemlerinin güvenilir ve etkili bir şekilde çalışmasını sağlamak amacıyla kritik bir rol oynamaktadır.</p><p>Askeri konnektörler, zorlu çevresel koşullarda yüksek performans ve güvenilirlik sağlayacak şekilde tasarlanmıştır.</p>",
+        "en": "<p>Military connectors play a critical role in ensuring the reliable and efficient operation of various electronic and communication systems.</p> <p>Military connectors are designed to deliver high performance and reliability under challenging environmental conditions.</p>",
+        "node": ""
+      }
+    },
+    "prd_sub_2": {
+      "content": {
+        "tr": "BACKSHELL",
+        "en": "BACKSHELL",
+        "node": ""
+      }
+    },
+    "prd_text_2": {
+      "content": {
+        "tr": "Askeri alanda kullanılan backshell'ler, konnektörlerin arka kısmını koruyan önemli bileşenlerdir. Bu parçalar, konnektörlerin fiziksel ve çevresel zararlardan korunmasını sağlar, böylece ekipmanların güvenilirliğini artırır. Backshell'ler, mekanik hasar, toz, su ve diğer dış etkenlere karşı koruma sunar, aynı zamanda elektromanyetik girişim (EMI) ve elektrostatik boşalmalara (ESD) karşı da koruma sağlar. Yüksek dayanıklılıkları sayesinde, şok, titreşim ve sıcaklık değişimlerine karşı direnç gösterirler. İletişim sistemlerinden silah sistemlerine, gözlem ve sensör sistemlerinden askeri taşıma araçlarına kadar geniş bir uygulama yelpazesine sahiptirler. Bu özellikleri sayesinde, askeri sistemlerin performansını ve dayanıklılığını artırarak güvenli ve kesintisiz operasyonlar sağlanmasına katkıda bulunurlar.",
+        "en": "<p>Backshells are critical components in military applications that protect the rear part of connectors. These parts safeguard connectors from physical and environmental damage, thereby enhancing the reliability of equipment. Backshells provide protection against mechanical damage, dust, water, and other external factors, while also shielding against electromagnetic interference (EMI) and electrostatic discharge (ESD). Thanks to their high durability, they are resistant to shock, vibration, and temperature fluctuations.</p> <p>With a wide range of applications, backshells are utilized in communication systems, weapon systems, surveillance and sensor systems, as well as military transport vehicles. By improving the performance and durability of military systems, these components contribute to safe and uninterrupted operations.</p>",
+        "node": ""
+      }
+    },
+    "prd_sub_3": {
+      "content": {
+        "tr": "KAPAK",
+        "en": "CAP",
+        "node": ""
+      }
+    },
+    "prd_text_3": {
+      "content": {
+        "tr": "Askeri alanda kullanılan kapaklar, elektronik ve mekanik bağlantı noktalarını çevresel etkenlerden koruyarak ekipmanın güvenilirliğini artırır. Toz, su, kimyasal maddeler gibi dış faktörlere karşı dayanıklılık sunar ve EMI ile ESD koruması sağlayarak veri iletim kalitesini korur. Şok, titreşim ve sıcaklık değişimlerine karşı yüksek dayanıklılıkla, askeri araçlar ve savunma sistemleri gibi zorlu ortamlarda güvenli ve verimli çalışma sağlar.",
+        "en": "Covers used in military applications protect electronic and mechanical connection points from environmental factors, enhancing the reliability of equipment. They provide resistance against external elements such as dust, water, and chemicals, while also ensuring data transmission quality through EMI and ESD protection. With high durability against shock, vibration, and temperature fluctuations, these covers enable safe and efficient operation in challenging environments, such as military vehicles and defense systems.",
+        "node": ""
+      }
+    },
+    "prd_sub_4": {
+      "content": {
+        "tr": "ELEKTROMEKANİK KUTU",
+        "en": "ELECTROMECHANICAL ENCLOSURE",
+        "node": ""
+      }
+    },
+    "prd_text_4": {
+      "content": {
+        "tr": "Askeri araçlarda kullanılan güç dağıtım ve kontrolcü kutular, araçların enerji yönetimi ve kontrol işlevlerini etkin şekilde destekleyen kritik bileşenlerdir. Güç dağıtım kutuları, enerjiyi güvenilir bir şekilde çeşitli sistemlere dağıtır ve elektriksel arızalara karşı koruma sağlar. Kontrolcü kutuları ise araç sistemlerinin merkezi kontrolünü yaparak motor, fren ve süspansiyon gibi sistemleri yönetir, performansı optimize eder ve bakım süreçlerini kolaylaştırır. Her iki kutu da zorlu askeri koşullarda dayanıklılık göstererek araçların güvenli ve kesintisiz çalışmasını sağlar.",
+        "en": "Power distribution and controller enclosures used in military vehicles are critical components that effectively support energy management and control functions. Power distribution enclosures reliably distribute energy to various systems and provide protection against electrical faults. Controller enclosures, on the other hand, centrally manage vehicle systems such as the engine, brakes, and suspension, optimizing performance and simplifying maintenance processes. Both types of enclosures are built to withstand challenging military conditions, ensuring the safe and uninterrupted operation of the vehicles.",
+        "node": ""
+      }
+    },
+    "about_sub_1": {
+      "content": {
+        "tr": "HAKKIMIZDA",
+        "en": "ABOUT US",
+        "node": ""
+      }
+    },
+    "about_text_1": {
+      "content": {
+        "tr": "<p>Ana odak noktamız Savunma Sanayii sektörüne yönelik hizmet sunmak olan firmamızda,zırhlı araçlar, tanklar, denizaltılar ve askeri hava araçlarının alt sistemleri, radarlar, gözetleme kuleleri gibi parçalarına yönelik güç dağıtım kutuları, kontrol kutuları ve özel taleplere uygun mekanik alt parça imalatı gerçekleştiriyoruz.</p><p>Ayrıca, ilgili sistemlerde kullanılmak üzere askeri standartlara uygun konnektörler, adaptörler ve konnektör aksesuarları gibi ürünlerde geniş bir ürün yelpazesi sunarak Türk Savunma Sanayiine hızlı teslimat süreleriyle hizmet veriyoruz.</p>",
+        "en": "<p>At our company, where the primary focus is providing services to the Defense Industry sector, we manufacture power distribution boxes, control boxes, and custom mechanical subcomponents for subsystems of armored vehicles, tanks, submarines, and military aircraft, as well as parts such as radars and surveillance towers.</p> <p>Additionally, we offer a wide range of products, including connectors, adapters, and connector accessories that meet military standards, to be used in related systems, providing fast delivery times to serve the Turkish Defense Industry effectively.</p>",
+        "node": ""
+      }
+    },
+    "about_sub_2": {
+      "content": {
+        "tr": "MİSYON",
+        "en": "MISSION",
+        "node": ""
+      }
+    },
+    "about_text_2": {
+      "content": {
+        "tr": "Müşteri ve çalışan memnuniyetini gözeterek Türk savunma sanayine teknoloji ve kalite odaklı hizmet sunmanın referansı olmaktır.",
+        "en": "To be a reference for providing technology- and quality-focused services to the Turkish defense industry while prioritizing customer and employee satisfaction.",
+        "node": ""
+      }
+    },
+    "about_sub_3": {
+      "content": {
+        "tr": "VİZYON",
+        "en": "VISION",
+        "node": ""
+      }
+    },
+    "about_text_3": {
       "content": {
         "tr": "Türk silahlı kuvvetlerini dışa olan bağımlılıktan kurtarmaktır.",
-        "en": "It is to save the Turkish armed forces from external dependence.",
+        "en": "To free the Turkish Armed Forces from external dependency.",
+        "node": ""
+      }
+    },
+    "serv_sub_1": {
+      "content": {
+        "tr": "Tasarım ve Mühendislik Çözümleri",
+        "en": "Design and Engineering Solutions",
+        "node": ""
+      }
+    },
+    "serv_sub_2": {
+      "content": {
+        "tr": "Talaşlı ve Kaynaklı İmalat",
+        "en": "Machining and Welded Manufacturing",
+        "node": ""
+      }
+    },
+    "serv_sub_3": {
+      "content": {
+        "tr": "Kaplama",
+        "en": "Coating",
+        "node": ""
+      }
+    },
+    "serv_sub_4": {
+      "content": {
+        "tr": "Yerlileştirme Çözümleriyle Güçlü İhracat",
+        "en": "Strong Export with Localization Solutions",
+        "node": ""
+      }
+    },
+    "serv_text_1": {
+      "content": {
+        "tr": "<p>Ar-Ge ekibimiz, bağlantı teknolojilerinde sürekli yenilik yaparak sektördeki en güncel çözümleri sunar. Mühendislik gücümüz, hafif, sağlam ve ergonomik tasarımlar ile sistem performansını iyileştirmeye odaklanır. Ayrıca, ürünlerimiz zorlu iklim koşulları, yüksek titreşim ve elektromanyetik parazit gibi etkilere karşı maksimum dayanıklılık sağlayacak şekilde tasarlanır.</p> <p>Savunma ve havacılık projelerinizde ihtiyaç duyduğunuz bağlantı çözümleri için bizimle iletişime geçin. Size özel tasarım ve mühendislik hizmetlerimizle en uygun ve güvenilir çözümü sunmaktan memnuniyet duyarız.</p>",
+        "en": "<p>Our R&D team continuously innovates in connection technologies to provide the most up-to-date solutions in the industry. Our engineering expertise focuses on improving system performance with lightweight, durable, and ergonomic designs. Furthermore, our products are designed to offer maximum resilience against harsh climatic conditions, high vibrations, and electromagnetic interference.</p><p>Contact us for the connection solutions you need in your defense and aviation projects. We are pleased to provide you with the most suitable and reliable solution through our custom design and engineering services.</p>",
+        "node": ""
+      }
+    },
+    "serv_text_2": {
+      "content": {
+        "tr": "Makine parkurumuzda farklı kapasite ve yeteneklerdeki makinelerle çeşitli parça üretimleri yapıyoruz. Alanında uzman mühendislerimiz ve yetkin personelimiz sayesinde karmaşık parçaların talaş kaldırma işlemlerini etkin bir şekilde gerçekleştiriyor, ayrıca ihtiyaç duyulan teçhizatı bünyemizde geliştirip üreterek termin süresini ve maliyeti düşürüp müşteri memnuniyetini sağlıyoruz.",
+        "en": "In our machinery park, we produce a variety of parts using machines with different capacities and capabilities. Thanks to our expert engineers and skilled personnel, we efficiently perform machining operations on complex parts. Additionally, we develop and manufacture the required equipment in-house, reducing lead times and costs while ensuring customer satisfaction.",
+        "node": ""
+      }
+    },
+    "serv_text_3": {
+      "content": {
+        "tr": "Yetkin ekibimiz ve zengin kaplama tesisimizin sağladığı imkânlar ile her geçen yıl kaplama kapasitemizi artırarak yıllık 500.000 adede ulaşan bir parça kaplama kapasitesine ulaştık.",
+        "en": "With our competent team and the capabilities provided by our advanced coating facility, we have steadily increased our coating capacity each year, reaching an annual capacity of 500,000 parts.",
+        "node": ""
+      }
+    },
+    "serv_text_3_list_1": {
+      "content": {
+        "tr": "Kadmiyum Kaplama",
+        "en": "Cadmium Coating",
+        "node": ""
+      }
+    },
+    "serv_text_3_list_2": {
+      "content": {
+        "tr": "Nikel Kaplama",
+        "en": "Nickel Coating",
+        "node": ""
+      }
+    },
+    "serv_text_3_list_3": {
+      "content": {
+        "tr": "Kromat Kaplama (Alodin)",
+        "en": "Chromate Coating (Alodine)",
+        "node": ""
+      }
+    },
+    "serv_text_3_list_4": {
+      "content": {
+        "tr": "Çinko",
+        "en": "Zinc Coating",
+        "node": ""
+      }
+    },
+    "serv_text_4": {
+      "content": {
+        "tr": "<p>Firmamız, uluslararası standartları gözeterek NSN (National Stock Number) numaraları üzerinden gelen talepleri yerlileştirmekte ve üstün kalitedeki ürünlerimizi NATO ülkelerine ihraç etmektedir. Savunma ve havacılık sektörlerinin ihtiyaç duyduğu bu ürünleri yerli kaynaklardan sağlayarak, global tedarik zincirinde güvenilir ve rekabetçi bir iş ortağı olarak hizmet veriyoruz.</p> <p>Yerlileştirme projelerimiz, NATO üyesi ülkelere sürdürülebilir tedarik sağlarken, yerli üretim ve istihdamın gelişimine de önemli katkılar sunar. Global pazarda rekabet gücümüzü artırarak, ulusal ekonomiye destek vermekten gurur duyuyoruz.</p>",
+        "en": "<p>Our company localizes requests based on NSN (National Stock Number) in compliance with international standards and exports our high-quality products to NATO countries. By sourcing these products domestically, which are essential for the defense and aerospace industries, we serve as a reliable and competitive partner in the global supply chain.</p>  <p>Our localization projects not only ensure sustainable supply for NATO member countries but also make significant contributions to the development of domestic production and employment. We take pride in strengthening our competitive edge in the global market and supporting the national economy.</p>",
+        "node": ""
+      }
+    },
+    "mark": {
+      "content": {
+        "tr": "Sakarya Temas Savunma ve Sanayi LTD. ŞTİ.",
+        "en": "Sakarya Temas Defense and Industry Limited Company",
+        "node": ""
+      }
+    },
+    "temp": {
+      "content": {
+        "tr": "<p></p> <p></p>",
+        "en": "",
         "node": ""
       }
     }
   }
+
+  
